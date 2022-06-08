@@ -57,3 +57,6 @@
 [4:57:58 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
 [4:58:01 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
 [4:58:08 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[5:01:11 pm] [Info]: Exiting
+[5:01:11 pm] [Info]: Closing storage
+[5:01:11 pm] [Info]: Bye!
