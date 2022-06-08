@@ -1,0 +1,11 @@
+{
+  "bind_address": "http://*:9898",
+  "mysql_ip": "mysql.example.net",
+  "mysql_user": "admin",
+  "mysql_password": "password",
+  "mysql_database": "homework_tracker",
+  "LoggingLevel": "3",
+  "StorageMethod": "RAM",
+  "HttpsRedirection": "false",
+  "CustomHeaders": "Access-Control-Allow-Origin:*;Access-Control-Allow-Credentials:true;Access-Control-Allow-Methods:GET,HEAD,OPTIONS,POST,PUT,PATCH,DELETE,TRACE,CONNECT;Access-Control-Allow-Headers:*"
+}

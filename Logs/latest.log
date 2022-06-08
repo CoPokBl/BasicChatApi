@@ -1,0 +1,59 @@
+[4:57:14 pm] [Info]: Logging to: Logs/2022-06-08-6.log
+[4:57:14 pm] [Info]: Starting Basic Chat API v0.1.0
+[4:57:14 pm] [Info]: Active Directory: /media/copokbl/Big Boi/Documents/Coding/C#/BasicChatApi
+[4:57:14 pm] [Info]: Loading config...
+[4:57:14 pm] [Info]: Loaded config
+[4:57:14 pm] [Info]: Warning: StorageMethod is set to RAM, data will be deleted upon restart
+[4:57:14 pm] [Info]: Initialising Storage
+[4:57:14 pm] [Info]: Initialised Storage
+[4:57:14 pm] [Info]: Loading custom headers
+[4:57:14 pm] [Debug]: Added custom header (Access-Control-Allow-Origin: *)
+[4:57:14 pm] [Debug]: Added custom header (Access-Control-Allow-Credentials: true)
+[4:57:14 pm] [Debug]: Added custom header (Access-Control-Allow-Methods: GET,HEAD,OPTIONS,POST,PUT,PATCH,DELETE,TRACE,CONNECT)
+[4:57:14 pm] [Debug]: Added custom header (Access-Control-Allow-Headers: *)
+[4:57:14 pm] [Info]: Loaded 4 custom headers
+[4:57:14 pm] [Debug]: Finished startup
+[4:57:14 pm] [Info]: Configuring services
+[4:57:14 pm] [Info]: Configuring app
+[4:57:16 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:17 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:17 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:18 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:18 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:18 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:18 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:18 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:21 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:21 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:21 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:22 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:27 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:27 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:28 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:28 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:28 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:28 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:28 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:28 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:29 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:29 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:29 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:29 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:29 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:29 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:30 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:30 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:30 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:30 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:30 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:39 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:57 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:57 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:57 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:57 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:58 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:58 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:58 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:57:58 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:58:01 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[4:58:08 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
