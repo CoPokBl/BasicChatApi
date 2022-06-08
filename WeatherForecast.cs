@@ -1,3 +1,5 @@
+using System;
+
 namespace BasicChatApi;
 
 public class WeatherForecast {

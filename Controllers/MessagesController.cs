@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using BasicChatApi.Schemas;
 using Microsoft.AspNetCore.Mvc;
 
