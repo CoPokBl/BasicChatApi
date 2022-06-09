@@ -77,9 +77,11 @@ public class Startup {
             
         if (env.IsDevelopment()) {
             app.UseDeveloperExceptionPage();
-            app.UseSwagger();
-            app.UseSwaggerUI();
         }
+        
+        // Swagger is cool so always use it
+        app.UseSwagger();
+        app.UseSwaggerUI();
 
         // Only do it if our master says so
         if (Program.Config["HttpsRedirection"] == "true") {

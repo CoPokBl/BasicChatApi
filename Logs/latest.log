@@ -1,30 +1,43 @@
-[4:57:14 pm] [Info]: Logging to: Logs/2022-06-08-6.log
-[4:57:14 pm] [Info]: Starting Basic Chat API v0.1.0
-[4:57:14 pm] [Info]: Active Directory: /media/copokbl/Big Boi/Documents/Coding/C#/BasicChatApi
-[4:57:14 pm] [Info]: Loading config...
-[4:57:14 pm] [Info]: Loaded config
-[4:57:14 pm] [Info]: Warning: StorageMethod is set to RAM, data will be deleted upon restart
-[4:57:14 pm] [Info]: Initialising Storage
-[4:57:14 pm] [Info]: Initialised Storage
-[4:57:14 pm] [Info]: Loading custom headers
-[4:57:14 pm] [Debug]: Added custom header (Access-Control-Allow-Origin: *)
-[4:57:14 pm] [Debug]: Added custom header (Access-Control-Allow-Credentials: true)
-[4:57:14 pm] [Debug]: Added custom header (Access-Control-Allow-Methods: GET,HEAD,OPTIONS,POST,PUT,PATCH,DELETE,TRACE,CONNECT)
-[4:57:14 pm] [Debug]: Added custom header (Access-Control-Allow-Headers: *)
-[4:57:14 pm] [Info]: Loaded 4 custom headers
-[4:57:14 pm] [Debug]: Finished startup
-[4:57:14 pm] [Info]: Configuring services
-[4:57:14 pm] [Info]: Configuring app
-[4:57:16 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
-[4:57:17 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
-[4:57:17 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
-[4:57:18 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
-[4:57:18 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
-[4:57:18 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
-[4:57:18 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
-[4:57:18 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
-[4:57:21 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
-[4:57:21 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[7:01:23 pm] [Info]: Logging to: Logs/2022-06-08-8.log
+[7:01:23 pm] [Info]: Starting Basic Chat API v0.1.0
+[7:01:23 pm] [Info]: Active Directory: /media/copokbl/Big Boi/Documents/Coding/C#/BasicChatApi
+[7:01:23 pm] [Info]: Loading config...
+[7:01:23 pm] [Info]: Loaded config
+[7:01:23 pm] [Info]: Warning: StorageMethod is set to RAM, data will be deleted upon restart
+[7:01:23 pm] [Info]: Initialising Storage
+[7:01:23 pm] [Info]: Initialised Storage
+[7:01:23 pm] [Info]: Loading custom headers
+[7:01:23 pm] [Debug]: Added custom header (Access-Control-Allow-Origin: *)
+[7:01:23 pm] [Debug]: Added custom header (Access-Control-Allow-Credentials: true)
+[7:01:23 pm] [Debug]: Added custom header (Access-Control-Allow-Methods: GET,HEAD,OPTIONS,POST,PUT,PATCH,DELETE,TRACE,CONNECT)
+[7:01:23 pm] [Debug]: Added custom header (Access-Control-Allow-Headers: *)
+[7:01:23 pm] [Info]: Loaded 4 custom headers
+[7:01:23 pm] [Debug]: Finished startup
+[7:01:23 pm] [Info]: Configuring services
+[7:01:23 pm] [Info]: Configuring app
+[7:02:34 pm] [Debug]: New request from: ::ffff:220.253.14.217 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[8:52:04 pm] [Info]: Exiting
+[8:52:04 pm] [Info]: Closing storage
+[8:52:04 pm] [Info]: Bye!
+00 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
+[5:41:04 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:41:07 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:41:07 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:42:11 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:42:13 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:42:13 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:43:06 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:43:09 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:43:09 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:43:47 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:43:48 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:43:48 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:44:48 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[5:44:48 pm] [Debug]: New request from: ::1 (Unknown user agent)
+[7:01:11 pm] [Info]: Exiting
+[7:01:11 pm] [Info]: Closing storage
+[7:01:11 pm] [Info]: Bye!
+1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
 [4:57:21 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
 [4:57:22 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
 [4:57:27 pm] [Debug]: New request from: ::1 (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36)
