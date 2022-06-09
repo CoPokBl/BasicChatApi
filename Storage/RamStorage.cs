@@ -26,6 +26,8 @@ public class RamStorage : IStorageMethod {
         _messages.RemoveAt(index);
     }
 
-    public Message[] GetMessages(int limit, int offset) => _messages.Skip(offset).Take(limit).ToArray();
-    
+    public Message[] GetMessages(int limit, int offset) {
+        _messages.Reverse();
+        return _messages.Skip(offset).Take(limit).ToArray();
+    }
 }
