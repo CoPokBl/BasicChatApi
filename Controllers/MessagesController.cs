@@ -8,12 +8,12 @@ namespace BasicChatApi.Controllers;
 [Route("messages")]
 public class MessagesController : ApiController {
     
-    [HttpGet]
-    public IEnumerable<Message> Get([FromQuery] int limit = 10, [FromQuery] int offset = 0) 
-        => Program.Storage.GetMessages(limit, offset);
+    [HttpGet("{channel}")]
+    public IEnumerable<Message> Get(string channel, [FromQuery] int limit = 10, [FromQuery] int offset = 0) 
+        => Program.Storage.GetMessages(channel, limit, offset);
     
-    [HttpPost]
-    public void Post([FromBody] IncomingMessage message) 
-        => Program.Storage.CreateMessage(message.ToMessage());
+    [HttpPost("{channel}")]
+    public void Post([FromBody] IncomingMessage message, string channel) 
+        => Program.Storage.CreateMessage(channel, message.ToMessage());
     
 }

@@ -7,10 +7,10 @@ public interface IStorageMethod {
     void Init();
     void Deinit();
     
-    void CreateMessage(Message message);
-    void UpdateMessage(Message message);
+    void CreateMessage(string channel, Message message);
+    void UpdateMessage(string channel, Message message);
     void DeleteMessage(string id);
     
-    Message[] GetMessages(int limit, int offset);
+    Message[] GetMessages(string channel, int limit, int offset);
 
 }
