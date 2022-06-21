@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using BasicChatApi.Schemas;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,7 +8,7 @@ namespace BasicChatApi.Controllers;
 public class MessagesController : ApiController {
     
     [HttpGet("{channel}")]
-    public IEnumerable<Message> Get(string channel, [FromQuery] int limit = 10, [FromQuery] int offset = 0, [FromQuery] string? name = null) {
+    public IEnumerable<Message> GetMessages(string channel, [FromQuery] int limit = 10, [FromQuery] int offset = 0, [FromQuery] string? name = null) {
         if (name != null) {
             StatusTracker.UserPinged(name, channel);
         }
@@ -17,12 +16,15 @@ public class MessagesController : ApiController {
     }
 
     [HttpPost("{channel}")]
-    public void Post([FromBody] IncomingMessage message, string channel) 
-        => Program.Storage.CreateMessage(channel, message.ToMessage());
+    public Message SendMessage([FromBody] IncomingMessage message, string channel) {
+        Message msg = message.ToMessage();
+        Program.Storage.CreateMessage(channel, msg);
+        return msg;
+    }
 
     [HttpGet("{channel}/online")]
-    public IEnumerable<string> GetOnline(string channel) {
-        var users = StatusTracker.GetOnlineUsers(channel);
+    public IEnumerable<string> GetOnlineUsers(string channel) {
+        List<string> users = StatusTracker.GetOnlineUsers(channel);
         return users;
     }
     
