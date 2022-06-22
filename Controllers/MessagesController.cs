@@ -8,22 +8,66 @@ namespace BasicChatApi.Controllers;
 public class MessagesController : ApiController {
     
     [HttpGet("{channel}")]
-    public IEnumerable<Message> GetMessages(string channel, [FromQuery] int limit = 10, [FromQuery] int offset = 0, [FromQuery] string? name = null) {
+    public ActionResult<IEnumerable<Message>> GetMessages(
+        string channel, 
+        [FromQuery] int limit = 10, 
+        [FromQuery] int offset = 0, 
+        [FromQuery] string? name = null,
+        [FromHeader] AuthorizationHeaderParams? authorization = null) {
+        
+        if (Program.Password != null) {
+            if (authorization == null) {
+                return Unauthorized();
+            }
+            // Check password
+            if (authorization.GetPassword() != Program.Password) {
+                return Unauthorized();
+            }
+        }
+        
         if (name != null) {
             StatusTracker.UserPinged(name, channel);
         }
+
         return Program.Storage.GetMessages(channel, limit, offset);
     }
 
     [HttpPost("{channel}")]
-    public Message SendMessage([FromBody] IncomingMessage message, string channel) {
+    public ActionResult<Message> SendMessage(
+        [FromBody] IncomingMessage message, 
+        string channel, 
+        [FromHeader] AuthorizationHeaderParams? authorization = null) {
+        
+        if (Program.Password != null) {
+            if (authorization == null) {
+                return Unauthorized();
+            }
+            // Check password
+            if (authorization.GetPassword() != Program.Password) {
+                return Unauthorized();
+            }
+        }
+        
         Message msg = message.ToMessage();
         Program.Storage.CreateMessage(channel, msg);
         return msg;
     }
 
     [HttpGet("{channel}/online")]
-    public IEnumerable<string> GetOnlineUsers(string channel) {
+    public ActionResult<IEnumerable<string>> GetOnlineUsers(
+        string channel, 
+        [FromHeader] AuthorizationHeaderParams? authorization = null) {
+        
+        if (Program.Password != null) {
+            if (authorization == null) {
+                return Unauthorized();
+            }
+            // Check password
+            if (authorization.GetPassword() != Program.Password) {
+                return Unauthorized();
+            }
+        }
+        
         List<string> users = StatusTracker.GetOnlineUsers(channel);
         return users;
     }

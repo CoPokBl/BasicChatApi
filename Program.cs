@@ -2,17 +2,9 @@
 
 Basic Chat API
 
-Things to do TODO:
-- Make it
-
  */
 
-using System;
-using System.Collections.Generic;
-using System.IO;
 using BasicChatApi.Storage;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
 
 namespace BasicChatApi; 
 
@@ -24,6 +16,7 @@ public static class Program {
     public static bool StorageInitialized { get; set; }
     public static Dictionary<string, string> Config { get; private set; }
     public static (string, string)[] CustomHeaders { get; set; }
+    public static string? Password;
 
     public static void Main(string[] args) {
         
@@ -86,6 +79,10 @@ public static class Program {
         Logger.Info("Loaded config");
 
         Logger.LoggingLevel = (LogLevel) int.Parse(Config["LoggingLevel"]);
+        Password = Config["Password"];
+        if (Password == "") {
+            Password = null;
+        }
 
         // Run actual server (Catch all errors)
         try {

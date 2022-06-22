@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using Newtonsoft.Json;
 
 namespace BasicChatApi; 
@@ -20,7 +16,8 @@ public static class ConfigManager {
         { "StorageMethod", "RAM" },
         { "HttpsRedirection", "false" },
         { "CustomHeaders", "Access-Control-Allow-Origin:*;Access-Control-Allow-Credentials:true;Access-Control-Allow-Methods:" +
-                            "GET,HEAD,OPTIONS,POST,PUT,PATCH,DELETE,TRACE,CONNECT;Access-Control-Allow-Headers:*" }
+                            "GET,HEAD,OPTIONS,POST,PUT,PATCH,DELETE,TRACE,CONNECT;Access-Control-Allow-Headers:*" },
+        { "Password", "" }
     };
         
     // All the values that should be in the config file

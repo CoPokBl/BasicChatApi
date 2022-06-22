@@ -1,5 +1,3 @@
-using System;
-
 namespace BasicChatApi.Schemas; 
 
 public class IncomingMessage {
