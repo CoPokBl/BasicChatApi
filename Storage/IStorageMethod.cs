@@ -14,3 +14,7 @@ public interface IStorageMethod {
     Message[] GetMessages(string channel, int limit, int offset);
 
 }
+
+public class StorageFailException : Exception {
+    public StorageFailException(string message) : base(message) { }
+}

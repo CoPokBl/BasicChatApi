@@ -4,7 +4,7 @@ namespace BasicChatApi.Storage;
 
 public class RamStorage : IStorageMethod {
 
-    private List<(string, Message)> _messages;
+    private List<(string, Message)>? _messages;
 
     public void Init() {
         _messages = new List<(string, Message)>();

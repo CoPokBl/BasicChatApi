@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace BasicChatApi.Controllers; 
 
 [ApiController]
-[Route("messages")]
+[Route("messages/{channel}")]
 public class MessagesController : ApiController {
     
-    [HttpGet("{channel}")]
+    [HttpGet]
     public ActionResult<IEnumerable<Message>> GetMessages(
         string channel, 
         [FromQuery] int limit = 10, 
@@ -32,7 +32,7 @@ public class MessagesController : ApiController {
         return Program.Storage.GetMessages(channel, limit, offset);
     }
 
-    [HttpPost("{channel}")]
+    [HttpPost]
     public ActionResult<Message> SendMessage(
         [FromBody] IncomingMessage message, 
         string channel, 
@@ -53,7 +53,7 @@ public class MessagesController : ApiController {
         return msg;
     }
 
-    [HttpGet("{channel}/online")]
+    [HttpGet("online")]
     public ActionResult<IEnumerable<string>> GetOnlineUsers(
         string channel, 
         [FromHeader] AuthorizationHeaderParams? authorization = null) {
